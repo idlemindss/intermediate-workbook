@@ -12,19 +12,20 @@
     <h1 class="title animated rollIn">TOWERS OF HANOI</h1>
       <div class=descriptionText>
         <h4> Welcome to Towers of Hanoi. The object of the game is to rebuild the tower on one of the unoccupied stacks without placing a larger block on top of a smaller. You can only displace the last block on a stack during a move. <br>Click a block to remove it from the stack, and then click a new stack to attach the block.</h4>
+            <div id="announce-game-won" class="animated bounceInUp"></div>
       </div>
   </div>
-  <div data-stack="1">
+  <div data-stack="1" class="grow">
     <div data-block="100"></div>
     <div data-block="75"></div>
     <div data-block="50"></div>
     <div data-block="25"></div>
   </div>
-  <div data-stack="2">
+  <div data-stack="2" class="grow">
   </div>
-  <div data-stack="3">
+  <div data-stack="3" class="grow">
   </div>
-  <div id="announce-game-won"></div>
+
   <script type="text/javascript" src="../../vendor/jquery.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
