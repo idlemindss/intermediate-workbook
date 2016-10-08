@@ -3,8 +3,8 @@
 $(document).ready(function() {
 
 $(".grow").hover(
-      function(){$(this).animate({width: '515px', height:'121px'}, 1000);},
-      function(){$(this).animate({width: '500px', height:'101px'}, 1000);}
+      function(){$(this).animate({width: '515px', height:'121px'}, 500);},
+      function(){$(this).animate({width: '500px', height:'101px'}, 500);}
 );
 var block = null;
 $('[data-stack]').click(function() {
