@@ -1,3 +1,28 @@
+html {
+  background-image:url('towersOfHanoiBG.jpeg');
+  background-position: center;
+}
+
+#opaque {
+  width:500px;
+  margin: 0 auto;
+  background-color:#475369;
+  opacity:0.8;
+  padding:5px 0 5px 0;
+}
+.title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+.descriptionText {
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color:white;
+
+}
 [data-stack] {
     display: flex;
     justify-content: left;
@@ -5,8 +30,11 @@
     -webkit-align-items: center;
     display: -webkit-flex;
     height: 101px;
+    width: 500px;
     background-color: aliceblue;
-    margin: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+
 }
 
 [data-block] {
@@ -16,25 +44,26 @@
 
 [data-block="25"] {
     height: 25px;
-    background-color: blue;
+    background-color: #7AA9DD;
 }
 
 [data-block="50"] {
     height: 50px;
-    background-color: green;
+    background-color: #506987;
 }
 
 [data-block="75"] {
     height: 75px;
-    background-color: red;
+    background-color: #26466D;
 }
 
 [data-block="100"] {
     height: 100px;
-    background-color: yellow;
+    background-color:#344152;
 }
 
 #announce-game-won {
     font-size: 50px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
